@@ -1,14 +1,17 @@
 # Automate
-DevOps Task by VIMAL DAGA SIR
+# DevOps Task by VIMAL DAGA SIR
 
-Pre-requisite :
+# Pre-requisite :
 
-OS: Base OS is Windows 10. Server OS is RedHat Enterprise Linux 8 (RHEL8) in Virtual Box.
-+In RHEL8 some of the softwares needed are Docker (also need the httpd image downloaded in it), Jenkins (also github plugin should be installed in it), ngrok program.
-+In Windows we need git bash software.
-+At the starting stop the firewalld in RHEL8 and start the docker and jenkins services.
+-OS: Base OS is Windows 10. Server OS is RedHat Enterprise Linux 8 (RHEL8) in Virtual Box.
 
-Introduction:
+-In RHEL8 some of the softwares needed are Docker (also need the httpd image downloaded in it), Jenkins (also github plugin should be installed in it), ngrok program.
+
+-In Windows we need git bash software.
+
+-At the starting stop the firewalld in RHEL8 and start the docker and jenkins services.
+
+# Introduction:
 
 This project use case is that there is a developer working on the project. Now he wants another developer to work on this. So We used the concept of git branch to provide a different branch to the new developer and whenever any one commits the code is uploaded to github.
 
@@ -21,7 +24,7 @@ This project use case is that there is a developer working on the project. Now h
 3: The third task is jenkins will check the code and merge the code into master branch and finally deploy the webpage after successful quality check.
 
 
-FOLLOW THE PROCEDURE TO IMPLEMENT THE SYSTEM 
+# FOLLOW THE PROCEDURE TO IMPLEMENT THE SYSTEM 
 
 Step 1: Create github repository and from gitbash add the file to github using master branch.
 
@@ -40,7 +43,7 @@ Step 7: Create a jenkins final job for merging the two branches when quality che
 This is the complete process for developing the system.
 
 
- TO TEST THE SYSTEM 
+ # TO TEST THE SYSTEM
  
  Step 1: using the ip of the redhat and port number search for the webpage on your browser.
  
@@ -48,5 +51,5 @@ This is the complete process for developing the system.
  
  Step 3: Now again to test for merging change something in the master branch and commit. Reload thw browser again and you will see that site is working fine.
  
- Thank you vimal sir for giving us such an amazing task.
+ *** Thank you vimal sir for giving us such an amazing task.***
  
