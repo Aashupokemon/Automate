@@ -19,19 +19,30 @@ This project use case is that there is a developer working on the project. Now h
 
 
 FOLLOW THE PROCEDURE TO IMPLEMENT THE SYSTEM 
+
 Step 1: Create github repository and from gitbash add the file to github using master branch.
+
 Step 2: Create a branch for the developer and change the code and then again upload to github using git commit command.
+
 Step 3: Create a jenkins production job which will copy the code into redhat server from github.
+
 Step 4: Create a jenkins production deployment job using docker container to launch the production system.
+
 Step 5: Create a jenkins testing job same as job1 but change the branch with developer branch.
+
 Step 6: Create a jenkins testing deployment job using docker conatiner to launch test system.
+
 Step 7: Create a jenkins final job for merging the two branches when quality check is successful.
+
 This is the complete process for developing the system.
 
 
  TO TEST THE SYSTEM 
+ 
  Step 1: using the ip of the redhat and port number search for the webpage on your browser.
+ 
  Step2 : Now change something in the developer branch code and reload the browser to see chnages.
+ 
  Step 3: Now again to test for merging change something in the master branch and commit. Reload thw browser again and you will see that site is working fine.
  
  Thank you vimal sir for giving us such an amazing task.
