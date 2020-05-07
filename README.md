@@ -51,5 +51,5 @@ This is the complete process for developing the system.
  
  Step 3: Now again to test for merging change something in the master branch and commit. Reload thw browser again and you will see that site is working fine.
  
- *** Thank you vimal sir for giving us such an amazing task.***
+ ***Thank you vimal sir for giving us such an amazing task.***
  
