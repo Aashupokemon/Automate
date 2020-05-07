@@ -2,11 +2,14 @@
 DevOps Task by VIMAL DAGA SIR
 
 Pre-requisite :
+
 OS: Base OS is Windows 10. Server OS is RedHat Enterprise Linux 8 (RHEL8) in Virtual Box.
-In RHEL8 some of the softwares needed are Docker (also need the httpd image downloaded in it), Jenkins (also github plugin should be installed in it), ngrok program.
-In Windows we need git bash software.
-At the starting stop the firewalld in RHEL8 and start the docker and jenkins services.
++In RHEL8 some of the softwares needed are Docker (also need the httpd image downloaded in it), Jenkins (also github plugin should be installed in it), ngrok program.
++In Windows we need git bash software.
++At the starting stop the firewalld in RHEL8 and start the docker and jenkins services.
+
 Introduction:
+
 This project use case is that there is a developer working on the project. Now he wants another developer to work on this. So We used the concept of git branch to provide a different branch to the new developer and whenever any one commits the code is uploaded to github.
 
  After that jenkins has three tasks 
