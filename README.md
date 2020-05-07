@@ -28,8 +28,6 @@ This project use case is that there is a developer working on the project. Now h
 
 Step 1: Create github repository and from gitbash add the file to github using master branch.
 
-![](Screenshot (74).png)
-
 Step 2: Create a branch for the developer and change the code and then again upload to github using git commit command.
 
 Step 3: Create a jenkins production job which will copy the code into redhat server from github.
